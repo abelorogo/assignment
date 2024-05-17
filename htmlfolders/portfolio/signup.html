@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Styled Form</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    label {
+        font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"],
+    input[type="tel"],
+    input[type="month"],
+    input[type="week"],
+    input[type="search"] {
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    input[type="radio"],
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    button a {
+        color: white;
+        text-decoration: none;
+    }
+    button:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+
+<form action="">
+    <label for="fname">First Name</label><br>
+    <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+    
+    <label for="sname">Second Name</label><br>
+    <input type="text" id="sname" name="sname" placeholder="Second Name"><br>
+    
+    <label for="lname">Last Name</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+    
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="Email"><br>
+    
+    <label for="password">Password</label><br>
+    <input type="password" id="password" name="password" placeholder="Password"><br>
+    
+    <label for="experience">Years of Experience</label><br>
+    <input type="number" id="experience" name="experience"><br>
+    
+    <label for="tel">Telephone Number</label><br>
+    <input type="tel" id="tel" name="tel"><br>
+    
+    <h3>Please Select One</h3>
+    <label for="mr">Mr</label>
+    <input type="radio" id="mr" name="select">
+    <label for="mrs">Mrs</label>
+    <input type="radio" id="mrs" name="select">
+    <label for="dr">Dr</label>
+    <input type="radio" id="dr" name="select">
+    <label for="miss">Miss</label>
+    <input type="radio" id="miss" name="select"><br>
+    
+    <h3>In which branch are you applying for?</h3>
+    Nairobi<input type="radio" name="c">
+    Kisumu<input type="radio" name="c">
+    Mombasa<input type="radio" name="c">
+    Kisii<input type="radio" name="c">
+    Nyeri<input type="radio" name="c"><br>
+    
+    <h3>Education Level: Please select all that is applicable with you</h3>
+    High School<input type="checkbox">
+    University<input type="checkbox">
+    Masters<input type="checkbox">
+    PhD<input type="checkbox"><br>
+    
+    <h3>What program are you applying for? Please select one</h3>
+    <label for="software">Software Development</label>
+    <input type="radio" id="software" name="program">
+    <label for="data">Data Science</label>
+    <input type="radio" id="data" name="program"><br>
+    
+    <label for="interview">Which month are you available for interview?</label><br>
+    <input type="month" id="interviewMonth" name="interviewMonth">
+    Week <input type="week" id="interviewWeek" name="interviewWeek"><br>
+    
+    <label for="location">Location</label><br>
+    <input type="search" id="location" name="location"><br>
+    <label for="">upload Cv</label><input type="file">
+    <h6>About Me</h6>
+    <details>
+        <summary>Click to reveal</summary>
+        My name is Abel, I am 23 years old, waiting to graduate from Chuka University with a Bachelor's degree in Applied Computer Science, and I want to become a Software Developer.
+    </details><br>
+    <p>i already have an account <br><button type="submit"><a href="login.html">click here to login</a></button></p>
+    
+
+    
+</form>
+
+</body>
+</html>

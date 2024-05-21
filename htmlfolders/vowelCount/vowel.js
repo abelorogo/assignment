@@ -34,3 +34,21 @@ Write a function that takes a string as an  argument and counts the number of vo
     console.log("The number of vowels in" +string+ " is " + countVowels(string));
     
  }
+
+
+ function v(words){
+    words=words.toLowerCase()
+c=0
+let vowel= "aeiou"
+for (let y=0 ; y<words.length; y++){
+if (vowel.includes(words[y])){
+c++
+}
+
+
+}
+
+return c;
+ }
+
+ console.log(v("hello wold"))

@@ -12,4 +12,19 @@
 
 }
 
+
+{
+  for(let p=1; p<=5 ; p++){
+    let u = ''
+    for(let j=0; j<p; j++){
+      u = u + '*'
+    }
+    console.log(u)
+}
+}
+
+
+
+
+
   

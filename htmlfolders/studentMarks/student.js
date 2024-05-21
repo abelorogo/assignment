@@ -65,4 +65,4 @@ function getSumInArrays(students) {
 }
 
 getSumInArrays(students);
-;
+

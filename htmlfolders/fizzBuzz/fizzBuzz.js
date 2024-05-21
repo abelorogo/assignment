@@ -14,7 +14,7 @@ The program should print the actual number if it's not a multiple of 3 or 6. n i
 {
 
     function  fizzBuzz (n){
-        for(let i = 0; i <n; i++){
+        for(let i = 0; i <=n; i++){
 
             if(i%3==0){
 
@@ -35,5 +35,7 @@ The program should print the actual number if it's not a multiple of 3 or 6. n i
 
 
     }
-fizzBuzz(20)
+
 }
+
+fizzBuzz(20)
